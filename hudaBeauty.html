@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Huda Beauty</title>
+  <style>
+    body {
+      background-image: url('iconicMain.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .heading {
+      color: black;
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      background-color: black;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto; /* center the container horizontally*/
+    }
+    
+    .container-11 {
+      text-align: center;
+      margin-bottom: 20px; /* Space between container-11 and container-12 */
+    }
+
+    .container-11 img {
+      width: 200px;
+      height: 130px;
+      padding-right: 10px;
+      cursor: pointer;
+      transition: transform 0.3s ease; /* Adding transition for pop effect */
+    }
+
+    .container-11 img:hover {
+      transform: scale(1.1); /* Zoom effect on hover */
+    }
+
+    .container-text-1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-weight: bold;
+      text-align: left;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .container-1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .container-13 img {
+      height: 230px;
+      width: auto;
+      max-width: 200px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: transform 0.3s ease; /* Adding transition for pop effect */
+    }
+
+    .container-13 img:hover {
+      transform: scale(1.1); /* Zoom effect on hover */
+    }
+
+    .container-12 img {
+      height: 500px; /* Adjusted height */
+      width: 450px; /* Adjusted width */
+    }
+
+    .container-14 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* gap: 20px; */
+      flex-wrap: wrap; /* Ensure items wrap to next line if needed */
+    }
+
+    .container-14 img {
+      height: 300px; /* Adjusted height */
+      width: 215px; /* Adjusted width */
+      /* border-radius: 10px; */
+      cursor: pointer;
+      transition: transform 0.3s ease; /* Adding transition for pop effect */
+    }
+
+    .container-14 img:hover {
+      transform: scale(1.1); /* Zoom effect on hover */
+    }
+
+    .container-14-text {
+      font-size: 18px;
+      font-weight: bold;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .container-2 {
+      background-color: #ffffcc;
+      padding: 20px;
+      margin-top: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+    }
+
+    .container-2 h2 {
+      font-size: 24px;
+      color: black;
+      text-align: center;
+    }
+  </style>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Owl Carousel CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="heading">Buy Huda Beauty Products Online</h1>
+  <div class="container">
+    <!-- <div class="container-11">
+      <p style="
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(95, 85, 85);
+        font-weight:bold;">COLLECTIONS
+      </p>
+      <img src="pixi1.jpg">
+      <img src="pixi2.jpg">
+      <img src="pixi3.jpg">
+    </div> -->
+    
+    <!-- Modified Container 12 with Owl Carousel -->
+    <div class="container-12 owl-carousel owl-theme">
+      <img src="mac1.jpg">
+      <img src="mac2.jpg">
+      <img src="mac3.jpg">
+    </div>
+    
+    <!-- <div class="container-13"> 
+      <img src="pixiBlushes.jpg">
+      <img src="pixiToners.jpg">
+      <img src="pixiEyeCare.jpg">
+      <img src="pixiSerums.jpg">
+      <img src="pixiMasks.jpg">
+    </div> -->
+    
+    <!-- <p class="container-text-1">Discover By Range</p> -->
+    <div class="container-14">
+      <div>
+        <img src="macTr1.jpg">
+        <!-- <p class="container-14-text">Glow-Getters</p> -->
+      </div>
+      <div>
+        <img src="macTr2.jpg">
+        <!-- <p class="container-14-text">Makeup Treats</p> -->
+      </div>
+      <div>
+        <img src="macTr3.jpg">
+        <!-- <p class="container-14-text">Skin Treats</p> -->
+      </div>
+      <div>
+        <img src="macTr4.jpg">
+        <!-- <p class="container-14-text">Skin Treats</p> -->
+      </div>
+      <div>
+        <img src="macTr5.jpg">
+        <!-- <p class="container-14-text">Skin Treats</p> -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Container 2 -->
+  <div class="container-2">
+    <h2>All Products</h2>
+    <!-- Add content for products here -->
+  </div>
+
+  <!-- Bootstrap JS, jQuery and Owl Carousel JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <script>
+    $(document).ready(function(){
+      $(".container-12").owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+          0:{
+            items:1
+          }
+        }
+      });
+    });
+  </script>
+</body>
+</html>

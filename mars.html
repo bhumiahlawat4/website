@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mars</title>
+  <style>
+     body {
+      background-image: url('marsMain.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .heading {
+      color: black;
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+    
+    .container {
+      width: 70%;
+      background-color: white;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 auto; /* center the container horizontally*/
+    }
+    
+    .video-wrapper {
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+      margin-bottom: 20px;
+    }
+
+    /* .video-wrapper video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    } */
+    .container-text-1,
+    .container-text-2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+      font-weight:bold;
+      text-align: left;  /*NOT WORKING*/
+    }
+    
+    .container11 img{
+      width:100%;
+      height:70%;
+    }
+    .container-1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap:wrap; /* Allows items to wrap to next line*/
+    }
+
+    .container-12 img {
+      height: 225px;
+      /* width: 200px; */
+      width:auto;
+      max-width:200px;
+      margin: 10px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    
+    .container-13 img {
+      height: 100px;
+      /* width: 200px; */
+      width:auto;
+      max-width:150px;
+      margin: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    /* New Container */
+    .container-2 {
+      background-color: rgb(144, 144, 201); /* Light yellowish color */
+      padding: 20px;
+      margin-top: 20px;
+      margin-right:100px;
+      margin-left:100px;
+    }
+
+    .container-2 h2 {
+      font-size: 24px;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="heading">Buy MARS Products Online</h1>
+  <div class="container">
+    <div class="container11">
+      <img src="mars1.jpg">
+      <!-- <img src="mars2.jpg">
+      <img src="mars3.jpg">
+      <img src="mars4.jpg"> -->
+    </div>
+    <p class="container-text-1">Shop By Category</p>
+    <div class="container-12"> 
+      <img src="eyesM.jpg">
+      <img src="faceM.jpg">
+      <img src="lipsM.jpg">
+      <img src="toolsM.jpg">
+    </div>
+    <p class="container-text-2">Shop By Look</p>
+    <div class="container-13"> 
+      <img src="look1M.jpg">
+      <img src="look2M.jpg">
+      <img src="look3M.jpg">
+      <img src="look4M.jpg">
+      <img src="look5M.jpg">
+    </div>
+  </div>
+  <!-- Container 2 -->
+  <div class="container-2">
+    <h2>All Products</h2>
+    <!-- Add content for products here -->
+  </div>
+</body>
+</html>
